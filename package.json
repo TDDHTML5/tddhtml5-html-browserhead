@@ -1,0 +1,21 @@
+{
+  "name"        : "tddhtml5-html-browserhead",
+  "version"     : "0.0.1",
+  "keywords"    : "TDD, test-driven development, HTML5, Buster, BusterJS, PhantomJS",
+  "homepage"    : "http://www.tddhtml5.com",
+  "author"      : "David Dripps <david.dripps@gmail.com>",
+  "repository"  : {
+    "type": "git",
+    "url": "https://github.com/TDDHTML5/tddhtml5-html-browserhead"
+  },
+  "private"      : false,
+  "dependencies" : {
+    "buster" : "0.6.x",
+    "jake"   : "0.3.x"
+  },
+  "scripts"      : {
+    "start"       : "buster server &\nsleep 3\n./lib/phantomjs/bin/phantomjs ./node_modules/buster/script/phantom.js &\nopen -a 'firefox' 'http://localhost:1111/capture'\nopen -a 'google chrome' 'http://localhost:1111/capture'\nopen -a 'opera' 'http://localhost:1111/capture'",
+    "stop"        : "kill `ps -ef | grep buster-server | grep -v grep | awk '{print $2}'`\n kill `ps -ef | grep phantomjs | grep -v grep | awk '{print $2}'`",
+    "test"        : "jake -f test/lib/jakefile.js\nbuster test --config test/lib/buster.js"
+  }
+}
