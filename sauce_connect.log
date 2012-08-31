@@ -1,0 +1,113 @@
+2012-08-31 08:51:14,049 - sauce_connect:899 - INFO - / Starting \
+2012-08-31 08:51:14,052 - sauce_connect:900 - INFO - Please wait for "You may start your tests" to start your tests.
+2012-08-31 08:51:14,056 - sauce_connect:920 - DEBUG - System is -7.0 hours off UTC
+2012-08-31 08:51:14,058 - sauce_connect:922 - DEBUG - options: {'user': 'daviddripps', 'ports': ['57457'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': None, 'boost_mode': True, 'ssh_port': 443, 'fast_fail_regexps': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2012-08-31 08:51:14,059 - sauce_connect:923 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r18', 'OwnerPorts': ['57457'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_33-Java_HotSpot-TM-_64-Bit_Server_VM,_20.8-b03-424,_Apple_Inc.-on-Mac_OS_X-10.8-x86_64', 'Build': '26', 'ScriptRelease': 26, 'ScriptName': 'sauce_connect'}
+2012-08-31 08:51:14,059 - sauce_connect:925 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['57457']
+2012-08-31 08:51:14,072 - sauce_connect:362 - INFO - Succesfully connected to local server 127.0.0.1:57457 in 7ms
+2012-08-31 08:51:14,282 - sauce_connect:227 - INFO - {"squid_config":[""],"use_caching_proxy":true,"fast_fail_regexps":[""],"ssh_port":443,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r18","OwnerPorts":["57457"],"Ports":["80"],"Platform":"Java-1.6.0_33-Java_HotSpot-TM-_64-Bit_Server_VM,_20.8-b03-424,_Apple_Inc.-on-Mac_OS_X-10.8-x86_64","Build":"26","ScriptRelease":26,"ScriptName":"sauce_connect"},"use_kgp":true,"domain_names":["sauce-connect.proxy"]}
+2012-08-31 08:51:14,506 - sauce_connect:239 - INFO - Tunnel remote VM is provisioned (21644b4b261a4a958b11ffb5d28e893f)
+2012-08-31 08:51:14,707 - sauce_connect:255 - INFO - Tunnel remote VM is new ..
+2012-08-31 08:51:17,915 - sauce_connect:255 - INFO - Tunnel remote VM is deploying ..
+2012-08-31 08:51:21,118 - sauce_connect:255 - INFO - Tunnel remote VM is booting ..
+2012-08-31 08:51:49,032 - sauce_connect:259 - INFO - Tunnel remote VM is running at maki8004.miso.saucelabs.com
+2012-08-31 08:51:49,042 - sauce_connect:362 - INFO - Succesfully connected to local server 127.0.0.1:57457 in 0ms
+2012-08-31 08:51:49,045 - sauce_connect:987 - INFO - Starting connection to tunnel host...
+2012-08-31 08:51:49,046 - sauce_connect:987 - INFO - Connecting to tunnel host maki8004.miso.saucelabs.com as daviddripps
+2012-08-31 08:51:49,134 - sauce_connect:987 - INFO - Forwarding Selenium with ephemeral port 57463
+2012-08-31 08:51:49,137 - sauce_connect:987 - INFO - Selenium HTTP proxy listening on port 4445
+2012-08-31 08:51:49,515 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2012-08-31 08:51:49,539 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 24ee8330a8dd4dacbf39c3e299b7af01
+2012-08-31 08:51:49,542 - sauce_connect:987 - INFO - Connected! You may start your tests.
+2012-08-31 08:53:09,477 - sauce_connect:0 - INFO - received SIGINT
+2012-08-31 08:53:30,875 - sauce_connect:899 - INFO - / Starting \
+2012-08-31 08:53:30,878 - sauce_connect:900 - INFO - Please wait for "You may start your tests" to start your tests.
+2012-08-31 08:53:30,884 - sauce_connect:920 - DEBUG - System is -7.0 hours off UTC
+2012-08-31 08:53:30,884 - sauce_connect:922 - DEBUG - options: {'user': 'daviddripps', 'ports': ['57498'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': None, 'boost_mode': True, 'ssh_port': 443, 'fast_fail_regexps': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2012-08-31 08:53:30,885 - sauce_connect:923 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r18', 'OwnerPorts': ['57498'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_33-Java_HotSpot-TM-_64-Bit_Server_VM,_20.8-b03-424,_Apple_Inc.-on-Mac_OS_X-10.8-x86_64', 'Build': '26', 'ScriptRelease': 26, 'ScriptName': 'sauce_connect'}
+2012-08-31 08:53:30,887 - sauce_connect:925 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['57498']
+2012-08-31 08:53:30,898 - sauce_connect:362 - INFO - Succesfully connected to local server 127.0.0.1:57498 in 6ms
+2012-08-31 08:53:31,104 - sauce_connect:227 - INFO - {"squid_config":[""],"use_caching_proxy":true,"fast_fail_regexps":[""],"ssh_port":443,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r18","OwnerPorts":["57498"],"Ports":["80"],"Platform":"Java-1.6.0_33-Java_HotSpot-TM-_64-Bit_Server_VM,_20.8-b03-424,_Apple_Inc.-on-Mac_OS_X-10.8-x86_64","Build":"26","ScriptRelease":26,"ScriptName":"sauce_connect"},"use_kgp":true,"domain_names":["sauce-connect.proxy"]}
+2012-08-31 08:53:31,819 - sauce_connect:239 - INFO - Tunnel remote VM is provisioned (4de42add5d32407fbeb06c95509a36e9)
+2012-08-31 08:53:32,017 - sauce_connect:255 - INFO - Tunnel remote VM is new ..
+2012-08-31 08:53:35,217 - sauce_connect:255 - INFO - Tunnel remote VM is deploying ..
+2012-08-31 08:53:38,421 - sauce_connect:255 - INFO - Tunnel remote VM is booting ..
+2012-08-31 08:54:00,882 - sauce_connect:259 - INFO - Tunnel remote VM is running at maki10140.miso.saucelabs.com
+2012-08-31 08:54:00,892 - sauce_connect:362 - INFO - Succesfully connected to local server 127.0.0.1:57498 in 0ms
+2012-08-31 08:54:00,895 - sauce_connect:987 - INFO - Starting connection to tunnel host...
+2012-08-31 08:54:00,897 - sauce_connect:987 - INFO - Connecting to tunnel host maki10140.miso.saucelabs.com as daviddripps
+2012-08-31 08:54:00,983 - sauce_connect:987 - INFO - Forwarding Selenium with ephemeral port 57504
+2012-08-31 08:54:00,986 - sauce_connect:987 - INFO - Selenium HTTP proxy listening on port 4445
+2012-08-31 08:54:01,243 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2012-08-31 08:54:01,270 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: e7411027eedc4004a47229d5dcbaa633
+2012-08-31 08:54:01,273 - sauce_connect:987 - INFO - Connected! You may start your tests.
+2012-08-31 08:55:15,075 - sauce_connect:0 - INFO - GET https://translate.googleapis.com/translate_a/l?client=chrome&cb=sl&hl=en -> 200 (609ms)
+2012-08-31 08:55:15,085 - sauce_connect:0 - INFO - GET https://clients4.google.com/chrome-variations/seed -> 200 (621ms)
+2012-08-31 08:55:16,039 - sauce_connect:0 - INFO - GET http://www.google.com/ -> 200 (149ms)
+2012-08-31 08:55:16,279 - sauce_connect:0 - INFO - GET http://www.google.com/blank.html -> 200 (22ms)
+2012-08-31 08:55:16,424 - sauce_connect:0 - INFO - GET http://www.google.com/logos/2012/montessori-res.png -> 200 (79ms)
+2012-08-31 08:55:16,471 - sauce_connect:0 - INFO - GET http://www.google.com/xjs/_/js/s/s,st,anim,jsa,c,sb,hv,wta,cr,cdos,pj,tbpr,tbui,rsn,ob,mb,lc,du,ada,amcl,klc,kat,hss,bihu,ifl,kp,lu,m,rtis,shb,tng,hsm,j,p,pcc,csi/rt=j/ver=AkMhq6yvwCE.en_US./d=1/sv=1/rs=AItRSTOyUupQ_FonwNwYAjf3ccBCBzGdWw -> 200 (128ms)
+2012-08-31 08:55:16,503 - sauce_connect:0 - INFO - GET http://www.google.com/logos/2012/montessori-hp.jpg -> 200 (127ms)
+2012-08-31 08:55:17,348 - sauce_connect:0 - INFO - GET http://www.google.com/textinputassistant/tia.png -> 200 (24ms)
+2012-08-31 08:55:17,403 - sauce_connect:0 - INFO - GET http://www.google.com/images/swxa.png -> 200 (49ms)
+2012-08-31 08:55:17,411 - sauce_connect:0 - INFO - GET http://www.google.com/extern_chrome/68f623bcfb04de2b.js -> 200 (86ms)
+2012-08-31 08:55:17,569 - sauce_connect:0 - INFO - GET http://www.google.com/favicon.ico -> 200 (43ms)
+2012-08-31 08:55:17,573 - sauce_connect:0 - INFO - GET http://www.google.com/images/nav_logo114.png -> 200 (64ms)
+2012-08-31 08:55:17,596 - sauce_connect:0 - INFO - GET http://www.google.com/csi?v=3&s=webhp&action=&srt=368&e=17259,37102,39523,39977,40333,3300097,3300110,3300129,3300132,3300136,3310002,4000115,4000178,4000229,4000230,4000303,4000307,4000352,4000354,4000433,4000473,4000553,4000593&ei=Y95AUOCzCuKvigLT8oDIBQ&imc=2&imn=2&imp=2&rt=xjsls.140,prt.145,xjses.1016,xjsee.1132,xjs.1150,ol.1292,iml.1150,wsrt.358,cst.2,dnst.0,rqst.326,rspt.140 -> 204 (58ms)
+2012-08-31 08:55:17,638 - sauce_connect:0 - INFO - GET http://ssl.gstatic.com/gb/js/sem_54e2402a5e33215e251a3491f27fcbad.js -> 200 (99ms)
+2012-08-31 09:01:09,473 - sauce_connect:0 - INFO - GET https://clients4.google.com/chrome-variations/seed -> 200 (524ms)
+2012-08-31 09:01:09,510 - sauce_connect:0 - INFO - GET https://translate.googleapis.com/translate_a/l?client=chrome&cb=sl&hl=en -> 200 (561ms)
+2012-08-31 09:01:09,700 - sauce_connect:0 - INFO - GET http://localhost:8888/ -> 200 (17ms)
+2012-08-31 09:01:09,841 - sauce_connect:0 - INFO - GET http://localhost:8888/favicon.ico -> 404 (3ms)
+2012-08-31 09:34:25,073 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 1024/1025 acks, 1310151ms since last recv, 2106ms timeout exceeded, min ack: 27
+2012-08-31 09:34:25,084 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2012-08-31 09:34:25,091 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:26,134 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:26,142 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:27,203 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:27,204 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:28,303 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:28,305 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:29,404 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:29,404 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:30,503 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:30,505 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:31,602 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:31,605 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:32,703 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:32,704 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:33,802 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:33,805 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:34,904 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:34,904 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:36,003 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 09:34:36,005 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 09:34:37,279 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2012-08-31 09:34:37,279 - sauce_connect:0 - INFO - resending 2 packets
+2012-08-31 09:34:37,305 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: e7411027eedc4004a47229d5dcbaa633
+2012-08-31 11:10:33,052 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 1947/1948 acks, 3642513ms since last recv, 2057ms timeout exceeded, min ack: 26
+2012-08-31 11:10:33,068 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2012-08-31 11:10:33,075 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:34,398 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:34,401 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:35,503 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:35,505 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:36,604 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:36,605 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:37,704 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:37,706 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:38,802 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:38,803 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:39,904 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:39,905 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:41,003 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:41,005 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:42,104 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:42,105 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:43,203 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:43,204 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:44,303 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2012-08-31 11:10:44,305 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2012-08-31 11:10:46,558 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2012-08-31 11:10:46,559 - sauce_connect:0 - INFO - resending 1 packets
+2012-08-31 11:10:46,572 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: e7411027eedc4004a47229d5dcbaa633

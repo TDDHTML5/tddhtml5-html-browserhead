@@ -37,6 +37,31 @@ module.exports = {
         { path: "/", content: fs.readFileSync('src/index.html')},
         { path: "/form", content: fs.readFileSync('src/form.html') }
       ]
+    },
+    selenium: {
+      //set our root path to be the project root
+      rootPath: '../selenium',
+      environment: "node",
+      tests: [
+        //our test files
+        "*.test.js"
+      ]
     }
+  },
+
+  saucelabs: {
+    username: process.env.SAUCE_USERNAME,
+    accessKey: process.env.SAUCE_ACCESS_KEY,
+    host: "ondemand.saucelabs.com",
+    port: 80,
+    processes: 10,
+    maxTests: false,
+    serviceName: 'sauce',
+    caps: [
+      {browserName: "internet explorer", version: '8', platform: "XP", proxy: {proxyType: 'direct'}, 'selenium-version': '2.21.0'},
+      {browserName: "firefox", version: '10', platform: "Windows 2003", proxy: {proxyType: 'direct'}},
+      {browserName: "chrome", version: '', platform: "VISTA", proxy: {proxyType: 'direct'}}
+    ]
+
   }
 };
